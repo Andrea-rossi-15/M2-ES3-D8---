@@ -5,13 +5,17 @@ using UnityEngine;
 public class eser4 : MonoBehaviour
 {
 
+    public int start = 10;
+    public int amount = 13;
 
     // Start is called before the first frame update
     void Start()
     {
-        int start = 2;
-        int amount = 5;
-        Debug.Log(start * amount);
+        for (int i = 0; i <= amount; i++)
+        {
+            Debug.Log(start + i);
+        }
+
     }
 
     // Update is called once per frame
@@ -21,4 +25,4 @@ public class eser4 : MonoBehaviour
     }
 }
 
-//DA FINIREEEEEEEEEEEEEEEE
+
